@@ -1,18 +1,18 @@
 JSON Web Services
 
-Format
+The JSON Web Services standard specifies a uniform way of exchanging data over HTTP.
 
+
+Response Format on Success
+--------------------------
 {
     "result":"ok",
-    "message":"Error message description on failure",
-    "data":{ }
+    "data":{}
 }
 
-Extended
-
+Response Format on Failure
+--------------------------
 {
-    "id":"ID corresponding to the ID send by request originator",
-    "result":"ok",
-    "message":"Error message description on failure",
-    "data":{ }
+    "result":"fail",
+    "message":"Error message description on failure"
 }
