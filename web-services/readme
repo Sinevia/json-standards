@@ -4,10 +4,8 @@ Format
 
 {
     "result":"ok",
-    "msg":"Error message description on failure",
-    "data":{
-        
-    }
+    "message":"Error message description on failure",
+    "data":{ }
 }
 
 Extended
@@ -15,8 +13,6 @@ Extended
 {
     "id":"ID corresponding to the ID send by request originator",
     "result":"ok",
-    "msg":"Error message description on failure",
-    "data":{
-        
-    }
+    "message":"Error message description on failure",
+    "data":{ }
 }
